@@ -85,6 +85,7 @@ gulp.task('extras' , () => {
       .pipe(gulp.dest('build'))
 });
 
+// Default task
 gulp.task('default', ['sass', 'js', 'pug', 'font', 'serve', 'inject']);
 
 gulp.task('build', ['image', 'extras']);
