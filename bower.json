@@ -1,0 +1,29 @@
+{
+  "name": "tc",
+  "description": "Ambiente di lavoro sviluppato in Gulp",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tommaso Costantini"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.4.1",
+    "foundation-icons": "*"
+  },
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "dist/css/foundation.min.css",
+        "dist/js/foundation.min.js"
+      ]
+    }
+  }
+}
