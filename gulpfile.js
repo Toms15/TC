@@ -27,7 +27,7 @@ gulp.task('js', function() {
 // Task for PUG files. In this task the files are saved with .html extension
 gulp.task('pug', () =>
 	gulp.src(['app/assets/pug/**/*.pug','!app/assets/pug/partials/*'])
-	.pipe($.changed('build', {extension: '.html'}))
+	.pipe($.changed('build', {extension: '.html', hasChanged: $.changed.compareContents}))
 	.pipe($.plumber())
 	.pipe($.pug({
 		pretty: true
