@@ -18,12 +18,6 @@ or if you prefer Yarn
 
     yarn install
 
-Once you have installed the dependencies you can run
-
-    gulp serve
-
-to instantly open up a dev server with BrowserSync and start coding.
-
 ## Installing a package
 TC has already the latest Foundation 6 stable release (currently 6.4.1) and jQuery included in dependencies.
 
